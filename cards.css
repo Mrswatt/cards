@@ -1,0 +1,32 @@
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* justify-content:space-between; */
+    background-color: rgb(82, 33, 156);
+}
+.me { 
+    position: relative;
+    overflow: hidden;
+    /* box-sizing: border-box; */
+    border-radius: 25px;
+    height: 280px;
+    width: 390px;
+    margin: 30px auto;
+    
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: transform 1.5s;
+}
+img:hover {
+    transform: scale(1.5); 
+}
+p {
+    position: absolute;
+    bottom: 10px;
+    left : 25%
+}
